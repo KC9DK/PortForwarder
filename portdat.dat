@@ -1,0 +1,10 @@
+#listen_host = IP address of host to listen for packets(max 1)
+#listen_port = Port number of host to listen for packets(max 1)
+#target_host = IP address of host to send packets (max 1)
+#target_port = Port number of host to send packets (max 10)
+#YOU CANNOT ADD MORE THAN 10 'target_port' ASSIGNMENTS
+#
+listen_host 127.0.0.1
+listen_port 2237
+target_host 127.0.0.1
+target_port 6000
